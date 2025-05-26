@@ -1,6 +1,3 @@
-from stegano import lsb
-
-
 def stegano(image_path):
     with open(image_path, "rb") as img:
         lines = img.read().decode(errors="ignore").splitlines()
